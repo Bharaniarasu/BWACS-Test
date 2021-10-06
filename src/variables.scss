@@ -1,0 +1,62 @@
+$purple   : #614ca7;
+$white    : #ffffff;
+$black    : #000000;
+$black36  : #00000036;
+$milkWhite: #fcfdfe;
+$darkGray : #6a6a6a;
+
+.transparentScrollBar {
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar {
+    width           : 1px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    background-image: none;
+  }
+
+  &::-webkit-scrollbar-corner {
+    display: none;
+    height : 0px;
+    width  : 0px;
+  }
+}
+
+.bodyScroll {
+  &::-webkit-scrollbar-track {
+    box-shadow      : inset 0 0 4px #fff;
+    background-color: $milkWhite;
+    border-radius   : 0;
+  }
+
+  &::-webkit-scrollbar {
+    width           : 0.75em;
+    height          : 0.55em;
+    background-color: $milkWhite;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0.5em;
+    background-image: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        color-stop(100%, #fce095),
+        color-stop(0.8, #f5ce79),
+        color-stop(0%, #f8b72a));
+  }
+
+  &::-webkit-scrollbar-corner {
+    display: none;
+    height : 0px;
+    width  : 0px;
+  }
+}
+
+.white {
+  color: #fff;
+}

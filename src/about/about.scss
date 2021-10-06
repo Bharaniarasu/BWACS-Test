@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.about-sec{
+    background: $white;
+    .content{
+      
+        h3{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1em;
+        }
+        h2{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 2.5em;
+        }
+       
+        p{
+            text-indent: 50px;
+        }
+    }
+}
+
+.bwaap-vision{
+    position: relative;
+    height: 100vh;
+    background: url('../assets/images/vision-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    .vision-title{
+        h3,h2{
+            color:$white;
+        }
+    }
+    .cicrle-wrapper{
+        // width:100px;
+        // height:100px;
+        border-radius:51%;
+        // background:Chartreuse;
+        // position:relative;
+        margin:15% 20%;
+
+        .vision-title{
+            text-transform: uppercase;  
+            h3{
+                font-weight: 600;
+                font-size: 2em;
+            }          
+            h2{
+                font-weight: 800;
+                font-size: 4em;
+                color: $white;
+            }  
+        }
+   
+    .circle{
+        display:block;
+        position:absolute;
+        top:51%;
+        left:51%;
+        // width:50px;
+        // height:50px;
+        margin:-51px;
+        // background:red;
+        border-radius:51%;
+        text-align:center;
+        h2{
+            color:$white;
+            span{
+                font-weight: 700;
+                font-size: 1.2em;
+                color: $white;
+            }
+        }
+
+    }
+    .deg-0 {
+        transform:translate(200px)
+     }
+     
+     .deg-25 {
+        transform:rotate(-75deg) translate(220px) rotate(75deg);
+     }
+
+     .deg-50 {
+        transform:rotate(-50deg) translate(200px) rotate(50deg);
+     }
+
+     .deg-75 {
+        transform:rotate(-25deg) translate(200px) rotate(25deg);
+     }
+
+     .deg-100 {
+        transform:rotate(25deg) translate(200px) rotate(-25deg);
+     }
+
+     .deg-125 {
+        transform:rotate(50deg) translate(200px) rotate(-50deg);
+     }
+
+     .deg-150 {
+        transform:rotate(75deg) translate(220px) rotate(-75deg);
+     }
+
+    }
+}
+
+.bwaap-mission{
+    background: $white;
+    .mission-list{
+        padding:2em 0;
+        ul li{
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ec62621f;
+        }
+    }
+.mission-img{
+    img{
+        margin-top:25%
+    }
+}
+}
